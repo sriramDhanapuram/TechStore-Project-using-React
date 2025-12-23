@@ -160,7 +160,7 @@ const products = [
     discount: "12% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/226313_0_nbabpt.png",
+      "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
     brand: "Microsoft",
     category: "Gaming",
   },
@@ -180,7 +180,7 @@ const products = [
     price: 5390,
     rating: 4.6,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Accessories/Images/255992_0_k9x7sq.png",
+      "https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Accessories/Images/258442_qfkztv.png",
     brand: "Microsoft",
     category: "Gaming",
   },
@@ -266,7 +266,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.9,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/228631_0_gslzrl.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/270721_13_cd2y4m.png",
     isBestSeller: true,
     brand: "Canon",
     category: "Camera",
@@ -279,7 +279,7 @@ const products = [
     discount: "10% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/251802_0_cjz5ts.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/248802_3_jpkfcu.png",
     isBestSeller: true,
     brand: "Sony",
     category: "Camera",
@@ -292,7 +292,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.9,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/274195_0_epvimr.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/273249_7_7eCAaGPNu.png?updatedAt=1760542444756",
     brand: "Nikon",
     category: "Camera",
   },
@@ -304,7 +304,7 @@ const products = [
     discount: "12% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/224549_0_fxz7fd.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/259482_q3xqat.png",
     brand: "Canon",
     category: "Camera",
   },
@@ -316,7 +316,7 @@ const products = [
     discount: "15% OFF",
     rating: 4.6,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/249095_0_jnsrp7.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/244230_0_bvyoln.png",
     brand: "Sony",
     category: "Camera",
   },
@@ -328,7 +328,7 @@ const products = [
     discount: "10% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Action%20Camera/Images/304139_0_zxzqtc.png",
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/300426_c7rspu.png",
     isBestSeller: true,
     brand: "GoPro",
     category: "Camera",
@@ -343,7 +343,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.9,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/227084_0_nbrxww.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20Accessories/Images/215083_3_qb1pl8.png",
     brand: "Canon",
     category: "Lens",
   },
@@ -355,7 +355,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.9,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/254018_0_qxz0bj.png",
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20Accessories/Images/215081_0_lh9flt.png?tr=w-600",
     isBestSeller: true,
     brand: "Sony",
     category: "Lens",
@@ -368,7 +368,7 @@ const products = [
     discount: "15% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/223894_0_dqmn0e.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20Accessories/Images/319541_0_4YyvdoFen.png?updatedAt=1762161584994",
     brand: "Nikon",
     category: "Lens",
   },
@@ -380,7 +380,7 @@ const products = [
     discount: "14% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/202658_0_lbdwks.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20Accessories/Images/190791_11_nkuje0.png",
     brand: "Canon",
     category: "Lens",
   },
@@ -392,7 +392,7 @@ const products = [
     discount: "12% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/219768_0_xj5fkk.png",
+      "https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20Accessories/Images/207721_9_mekx9c.png",
     brand: "Sony",
     category: "Lens",
   },
@@ -406,7 +406,7 @@ const products = [
     discount: "10% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/226890_1_xmcwfj.png",
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/230033_5_zdww1u.png",
     isBestSeller: true,
     brand: "Apple",
     category: "Charger",
@@ -419,7 +419,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/265102_0_lvmjqv.png",
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/305437_5_acfqpk.png",
     brand: "Apple",
     category: "Charger",
   },
@@ -431,7 +431,7 @@ const products = [
     discount: "9% OFF",
     rating: 4.9,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop%20Chargers%20and%20Adapters/Images/253000_0_fmhvry.png",
+    "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/245237_0_pci9h8.png",
     brand: "Apple",
     category: "Charger",
   },
@@ -443,7 +443,7 @@ const products = [
     discount: "8% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/227839_0_hgwdpm.png",
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/230034_6_jqdlva.png",
     isBestSeller: true,
     brand: "Apple",
     category: "Charger",
@@ -456,7 +456,7 @@ const products = [
     discount: "9% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/231412_0_yxqpor.png",
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/300303_6_ii3uwo.png",
     brand: "Apple",
     category: "Charger",
   },
@@ -468,7 +468,7 @@ const products = [
     discount: "12% OFF",
     rating: 4.6,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Wearables/Wearable%20Accessories/Images/253002_0_lvzwij.png",
+      "https://media.tatacroma.com/Croma%20Assets/Wearables/Wearable%20Accessories/Images/301213_torcdz.png",
     brand: "Apple",
     category: "Charger",
   },
@@ -482,7 +482,7 @@ const products = [
     discount: "19% OFF",
     rating: 4.7,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/229048_0_nwfwwo.png",
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/312613_tvot0k.png?tr=w-600",
     isBestSeller: true,
     brand: "SanDisk",
     category: "Storage",
@@ -495,7 +495,7 @@ const products = [
     discount: "25% OFF",
     rating: 4.6,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/204679_0_dw94yp.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/221490_4_DSDNVubCYN.png?updatedAt=1753785709232",
     brand: "SanDisk",
     category: "Storage",
   },
@@ -507,7 +507,7 @@ const products = [
     discount: "25% OFF",
     rating: 4.4,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/247888_0_y53xon.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/200378_0_sdvd6q.png",
     brand: "HP",
     category: "Storage",
   },
@@ -519,7 +519,7 @@ const products = [
     discount: "17% OFF",
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/220844_0_otwwve.png",
+      "/Samsung BAR Plus 256GB USB 3.1 Pen Drive.png",
     isBestSeller: true,
     brand: "Samsung",
     category: "Storage",
@@ -532,7 +532,7 @@ const products = [
     discount: "13% OFF",
     rating: 4.5,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/280917_0_h4xcay.png",
+    "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/241494_5_tg41yp.png",
     brand: "SanDisk",
     category: "Storage",
   },
@@ -544,7 +544,7 @@ const products = [
     discount: "21% OFF",
     rating: 4.5,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/247891_0_h0kpbb.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/233145_0_qdrylw.png",
     brand: "Kingston",
     category: "Storage",
   },
@@ -556,7 +556,7 @@ const products = [
     discount: "20% OFF",
     rating: 4.4,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/202399_0_rz2ubr.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/171078_3_zp6iy9.png",
     brand: "SanDisk",
     category: "Storage",
   },

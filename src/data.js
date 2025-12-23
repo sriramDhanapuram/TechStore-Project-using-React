@@ -10,6 +10,7 @@ const products = [
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Desktops/Images/311754_0_p4etiv.png",
     isBestSeller: true,
     brand: "Apple",
+    category: "Desktop",
   },
 
   {
@@ -23,6 +24,7 @@ const products = [
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/317417_0_7ISiBcc4Y.png?updatedAt=1757529273198",
     isBestSeller: true,
     brand: "Apple",
+    category: "Phone",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const products = [
     image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264226_fefcjf.png",
     brand: "Apple",
+    category: "Tablet",
   },
   {
     id: 4,
@@ -44,7 +47,8 @@ const products = [
     image:
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/316059_0_q4clnn.png",
     isBestSeller: true,
-    brand: "Samusung",
+    brand: "Samsung",
+    category: "Phone",
   },
   {
     id: 5,
@@ -54,57 +58,10 @@ const products = [
     discount: "10% OFF",
     image:
       "https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/305985_ilpfe3.png",
-    brand: "Play Station",
+    brand: "Sony",
+    category: "Gaming",
   },
 
-  // --- COMPUTERS ---
-  // {
-  //   id: 1,
-  //   name: "Apple iMac 27 Retina 5K",
-  //   price: 169999,
-  //   originalPrice: 199999,
-  //   discount: "15% OFF",
-  //   rating: 5.0,
-  //   image:
-  //     "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Monitor/Images/250014_0_zm8htw.png",
-  //   isBestSeller: true,
-  //   category: "Desktop",
-  // },
-  // {
-  //   id: 2,
-  //   name: "MacBook Pro 16 M3 Max",
-  //   price: 249900,
-  //   originalPrice: 269900,
-  //   discount: "7% OFF",
-  //   rating: 4.9,
-  //   image:
-  //     "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/301936_7_idxdaw.png",
-  //   isBestSeller: true,
-  //   category: "Laptop",
-  // },
-  // {
-  //   id: 3,
-  //   name: "MacBook Air 15 M2",
-  //   price: 124900,
-  //   originalPrice: 134900,
-  //   discount: "8% OFF",
-  //   rating: 4.8,
-  //   image:
-  //     "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/273880_g6cpks.png", // Reusing MacBook image
-  //   category: "Laptop",
-  // },
-  // {
-  //   id: 4,
-  //   name: "Apple Studio Display",
-  //   price: 159900,
-  //   rating: 4.7,
-  //   image:
-  //     "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Monitor/Images/250013_6_rmcc3u.png", // Reusing iMac image (looks like display)
-  //   category: "Monitor",
-  // },
-
-  // // --- PHONES ---
-  //
   {
     id: 6,
     name: "Samsung Galaxy S25 Ultra",
@@ -115,6 +72,7 @@ const products = [
     image:
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/316059_0_q4clnn.png",
     isBestSeller: true,
+    brand: "Samsung",
     category: "Phone",
   },
   {
@@ -126,6 +84,7 @@ const products = [
     rating: 4.6,
     image:
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/261949_0_o0rd9d.png",
+    brand: "Apple",
     category: "Phone",
   },
   {
@@ -136,7 +95,8 @@ const products = [
     discount: "12% OFF",
     rating: 4.5,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309134_0_cv9vxa.png", // Placeholder: Samsung looks generic enough
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309134_0_cv9vxa.png",
+    brand: "Google",
     category: "Phone",
   },
   {
@@ -148,6 +108,7 @@ const products = [
     rating: 4.7,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/308188_0_upzg1b.png",
+    brand: "Samsung",
     category: "Phone",
   },
 
@@ -162,6 +123,7 @@ const products = [
     image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/301976_1_qaq6hk.png",
     isBestSeller: true,
+    brand: "Apple",
     category: "Tablet",
   },
   {
@@ -173,6 +135,7 @@ const products = [
     rating: 4.7,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/301927_2_rhqs3m.png",
+    brand: "Apple",
     category: "Tablet",
   },
 
@@ -186,6 +149,7 @@ const products = [
     rating: 4.9,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/305985_ilpfe3.png",
+    brand: "Sony",
     category: "Gaming",
   },
   {
@@ -196,7 +160,8 @@ const products = [
     discount: "12% OFF",
     rating: 4.7,
     image:
-      "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUQEBMVEBAQFQ8QFhAXFhAPDxAPFRIWFxUSFRUYHyggGBolGxUVITEhJSkrLi4uFx8zODUtNygtLisBCgoKDQ0OGBAPGjglHyU4LDctNys3LSsrNzE4Kys3KzcrLy0tKzguNysrKzcwLS03KysyLS0tKy0rLSs4KzIrK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQQFBwIDBgj/xABEEAABAwICBQcICAQGAwAAAAABAAIDBBESIQUGMUFRBxNhcYGRoRQiMlJyscHRIzNCQ2KSs/A1RIKiJTRTsuHxFXOD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEBAQEAAwEAAAAAAAAAAAAAAAECERIxIv/aAAwDAQACEQMRAD8AvFCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCFAa5a10+jaczzm52MiH1kr9zWj3ncgltIV8UDDLM9sUbRcvcbAKvKrls0ayTA1s8jL2MzY7N6w11nEdihBr5DJTNr6n6SWXGxtMPOwuvYxMadg4u2nuC5nQWpIe41NQzmmvcXspWknm2uNw1ztthfZ/0gvHQ+t1DVR87DUxlu8OPNPaeDmvsQs6jWugj+srKZnXNEPiqpq9DQluDmmYdlsLVz1RoZsWbI2OZ0MYHN67DNBdb9ftFDbX03ZKx3uTd/KTokfzjHey2WT/a0qmWBp2AdwXRVOr4vSiL6WGpZKeeja4yiRrblrmF1jbPJudhsQSOunLGY3tZoxjKhlrvlkZO1t9zGtOE9qeaqcsLZiGV1OaUnISNLpIz1ttib4rh9IULoX4H2N82uHovbxHy2hbY4gY3ZZ2QX5QaShnGKGVko/C5ru+2xO15l5ySJ4khe6J7cw9hLHDtCtnk3198sbzNQLTtJa2UNcI5rDMXtYPFjkpbx6LBQkulVAhCEAhCEAhCEAhCEAhCEAhCEAhCEAhCEAhCEAhCEAhYveALkgAbzkAuW1h5RNG0YPOVLJJBlzMTmzSk8LNPm9tkHR19W2GN8rrlsbXvIGZIaCTYccl5U101kl0hM6pmNgRaOO92xR7mjp4nerB1s5Q5Z2ZjmI3C4gvd1vXlI29Wy/eqfNznuGQ3E9NkHZahaNZiEsgxFp8xpzDT6x6VYmkNJNiZidwVb6m1ViApfXCZxZYbEGR1sc/E/6OOJhw43usC7gLC5Kh9M60lz8Eb2huEHEx2IFxvv3WyyXJy3LebJsMeIcLkW+SYnJxF9hIvuQdzoPnJWucx+ORmbo3W84cQ7ceu4XTav6cliwvjuWseHmJw9GRtw4fhNiR271V9DXSRkFjzG8C2IbxwcN4XV6DrZzzsrmhxMeLCMuckZsPXbLuQdtrfpqOrwGOAxPbiL3Eg4iQLAWGfWoSnJaCDvFljT1BOAktkjmaHxzMBDHZZsIJNnCxG3aDkjSOMRvMYvIGktG3zkDeeNZ6vaweROML84Xu5xsgzMDnZPY8bTG4XN/suz3lM6OpBwgSc82QE4jhEkb7XMcjWjIix7ulONWqakdLLR1bWxzyufLTVZyxAts6BxPUbdJ6k6TfzU1rrOVxcnGtjK2FzMeOWne+Iu3zRNcRHMONwBfpuuwuvKhqaile7mZHRSROwudEcDnx8WkbLhXhyb64+VsEUrxJLhLmSbDKwWuHDc8XzClnW9a3jN3m6y7xCQJVWQhCEAhCEEFW63UcMjoZZMMjDYjC82Nr7QOlI3XKhP37R1hw+Cq/Xn/Pz+03/Y1QgQXg3WqiP8xH32W1msVIdlRF+doVGhZBBe7NL052TxH/6M+a2tr4jsljPU9h+KoWyywoL8E7Dsc09oWYcOKoEBbGyOGxxHaQgvu6FRDayUbJHjqe8fFbG6TnGyaT87/mgvNCpFmnKkbJ5fzuW5ustYP5iTvuguhCptutVaP5h/cw/BbW65Vw++v1siPwQdLy10r5NET83e8ZilcLkXja8YvD3LzPolv0gNgcOYv6IO4nirzqNcKuRjo5HMeyRrmOaY2WLXCxGQ4FUnX6ONPM5hOTc2ni05hA4r6gvNrkjaTvcfkmzW5W4ZJGOWxu3rHuQPtX5sMgXeVVJz0fYq3pXYXgqytX6jE0dQQV7pfR5YSCMlBS05Byzurn0roZso2ZridI6ryMNwLhBz1dot0EcUjyHc7e7BtZY5C/EhWBq/RRx42MuXNLc3G5wOaHN6tvgubptHyC2JgfgN2hwLg08QF0ugKd4Mkkhu6SxJ6kG1miY2SGRgc0kl2AOPNYztdg2A9S3uCjjrHGZTAxj3uaLkjABbLZci+1STH4hiAI6Da4PDJAxNDGHmRrAJCLFwFiR+wmukqWORtpQLbjsIPEHcpRy06foAadslsQb5xHG25BATUgZC/mjjda93OxEnYBcp1q1WQUNbTzNmldHHJjmbhwhwLSMWWQtc3G+y4+fTj3Atwsa0+q3C4AG4zG3tWVFXEODt4z9ob29alnJOZ5XsSjqmSsbLE4PjeA5r2kFrmnYQQt68/wDJ7r1HS1DIw4ilqHtjkhdkIZXusJmcBc+cBkb327b6bVMOx7T1OaVRuQkDuCLoFQhCCkdef8/P7Tf9jVCBY8pNdI3SdS1riAHtyy/02rmxpWb1vBvyQdSFmFy7dNTcWnrb8lmNOy8Gdzvmg6cLJc03WCTe1h/MPitg1jdvjH5j8kHRJVAN1j4x/wB3/C2N1jbvjd3hBNoUMNYo/Vd/b81mNYIuDx2A/FBLIUYNOwcXflKzbpuD1/7X/JBIITIaWgP3je24WD9N0w2yt7Df3IJBV7rVTSMnc53oyG7XbiLDLrGzsXUSa00rftk9THn4JhX600sjSx7Hvad1gO0Z5FByMTk7B2Hp8DkmjywuPN3w7sVsVumycx5hBlILG67PVWqyA6lx0mYvxsVL6uVFnWQWlTm4TgQjeFHaOmuApRjkGs0jPVCYVlPwUqSm87boKYkgkZO6WIYjARzg2FueHZvBy7wrB1Zk5+wjbzmMHK7Wnzd5uQoPW6idTzeWxjEx45uZm4gi2LtGV+pQmrGnn08/OU4LmsJfgNruaNosNuV7gIO80tRSQvwSNw4hiaQcbXDfnYZjgtuj5RJE+B23MjqTfSmuB0i9lPTUrsIc15qHOFo8jfIDZtG1MnOLHYhtB/YQcPrXEWlkYADY8YyAG117nid3YoWC5yzPj3rt9aqbnBzrRt2jpUJoqcRskYGAmVpZfYerqQY6KhzbI9hc0G7X3GEkHin+mNITtOJslo37Oh1tnxS6MjwQtiJxOJe/obcDIdy2YQ4GN2Qdv3g7iEEM/Scx++f2FwXofkNe52i2ucS4mapzJJOT7b+pecqiJzXFrr3GW0Adi9Gchg/wmP8A9tV+qUFgoQhB5r5Tv4pVe239Nq5ZdRynfxSq9tv6bVy6ASpEIFuhIlQKhIhAqVItkMRcbCwFwC4kNY2+wuccmjrQa0J/pXRT6chr3ROuL/RyMlsOkDMddrJggR2xQbh0Hv6VOO2KDI6PHpQa3DoH7sk7kp7En72IFaU+pHJl3pzSHNA8aMrcCQtujpcL1g0ZkcQD27PktQNnILO0JU3aF0Eci4XV6qyAXXU82SCRxLW96084tb5UGqsjDgWkAgixBzBHBVxrHq5JC4TUwJDc8vTb2b1Yb5U2lKDlNSdLt8oAYx0bnX5wbIwALk9GYyCnZ7Ek8ST4pXWGxanvQaXR7RtB2hQVfojCcUew524KbknaNrgO0JrLpKIbZG94PuQRdFTuxXduRUCxTqTS0O51+oO+SZTVLX5tN/AoG2lYQ9vOADEzJ2V7s49ivzkOH+ExdMlV+s5UVFJY57DkRxCvzkchwaLiaDe0lV3Gd5F+whB26EiEHmvlO/ilV7bf02rl11HKf/FKr22/ptXLIFQkuhAqEIQKhIlQC7XVZwGj5mRsbLU1c/krGEAjDzbHXPQ0F7uxcUpzVHTwo5hI9pkjIcCAfOYTbz23yvYW6roOu0BoMUj5qGpayQVUReyfDbHhZ58Vzst6XZdVs4buGS77W/XaGeJrKYP50ODxK4YebyIcBvJLSR2rgEAVBkdA7+lTZUMf6fedqDX2ju6kDt7upZ9vcOpAb7W7o4IMQ3oPfZbqb0lhh6O89Cyh9Ld2bEEgdo7u8f8AS1ThbH7Oqx7s1jUIJfQVTYrtaKpyVa6PmsV1+jqvJB1HPLVJMmAqFplqEDmWoTCt0mI2l7tjRs4ncE1qKpc5puqxkMvkMzYE57veg01esM7yfPwD1W5W7dqj5K952vcetxKyEA4OPZZNqqLCb2sD03QZOm4k95SCQJus2hA/pn3Tpw3jJw8ehMadPWFA5jkuLj9lW3yIac86SiccnAzM9oWDwOyx7CqdabHod4O/6U9qhpXyashnvYMe3F7Byd4EoPUaEAoQeaOVB4/8pVC49Nu8f6bVy4KmeVimJ0tVkWzezjf6tq5LyZ3Ad6CVSqJ5p43HsKUc4PW77/FBKouornnje7uulFU/j3j/AIQSt0KMFc7i3uWYrnfhQSCExFcfVHeshXfhPegeITUVw9U+CUVrenuQOSoi/SOwX3qQ8rYd/gUx/q7ggxB6XHstvCMPQd2024LIgbyT4JMI4ePV8kGNh+Edt0NPnbuzJZ3HALF52IJBmxaj6NuFx3LOE5LB+09Nj8D8EGhjrFTmj6pQLtq3wS2QdcyrWuWqULFVLJ06BxUVCi3SXN881veVrKDVnwK1zxFwtkN/anCRBDWWbFurIrG+4+9aWIHMSdxlM4ynUZQb7XH72rJrr5rFqQZEjt70Hq7Viq52kp5TtfDET14RfxQmmoTSNHUoO3mY/EJUFA8qX8VqvbZ+m1csuo5Uj/itV7bP02rlboM0qwBS3QZJVhdKCgywhYmFvAdwS3SPeRsQYmmZ6oWJo2cPEhE0hBFthNrfFFXIQ24NjdvvQHkTekdpSeRD1j4FNmVh3vseGFOaaoxG1wRa+WSDHyI+se4LAw2Nib+CfXTef0uxBp5sJcA4JUhagMljKMlkAgoMqZ2Sym3Hh7im8JsbJy7PJA3kCxC2tF+sZJcCBI3lO4hdaI2J03IIEeVikc8DaQO1baenfJlGx8nstc/3BBqSLoKPUrSMvoUkme92GMf3FTtFyR6Sf6fMwj8UmMjsaEFfTR4hb93UYRY2KvOi5Ez9/VgdEbPi5MNeORsRU/P0Mkk80d3PjfhvIwb2AAecOG9BULHJzGUxBsbHIjIjYQeC3xyIJFhW6lo3zSshjF5Ji2Nu/wA5zrAnoF7prC5XByLankv/APJzts0Asp2n7W503VtA7TwQW9Q0wijZE30Y2MjHU1oA9yFvQg838p2hqh+k6mRkTnMc9pDhbP6NoXJP0ZO3bDIOy/uXqWu0M2R5cQCXJlJq2w/ZQeYHQvG1jx1tctZdbbl1ghempNVYz9lM5tTYj9kdwKDziJBxCyDlfs+oUJ2xtP8AS1R0/JtTn7tvdZBSl0t1bU/JfCdjSOpzgmE3JY37LpG/1A+8IK0y271jKwOFj0eC7+XkukHoyv7Qw/BNJeTapHoyA9bfkUHBmhbx8AtlNTBhuD0LrZdQK4bMDvzNTWTU2vb9yHdTx8bIIW60TbexTD9XK5u2lk7Cx3uKxj1Xr5T9HSTHd6IaO8kBBDJF2NFyZ6SkzdHHAPxyNLu5l/epuk5IZD9dUtb0MZfxcUFZoJVzUnJLRt+sknl63Njb/aApqk1B0dHsp2OI3vvIfFB54e8XyIW1ki9JT6Go+adCYo2xyNLHNDWt809ICoPW3VqShlLb85Tknm5hvbfJr+Dh47kEWXWOLv6uK2tTNr1sZLbq4cOpA9jbcgAXJsAN5J3K49XeTqmELHVcfOzkYnAudgaTnhDRwFgmHJRqG5xbpCrYWj0oIXCzib5TOG7oHarbFMg5qj1bpYvq6aFvTgaT4qVjDm5NAaOAAA8FKCmWxtMgi8UnFL9JxUqKcLMRBBByRzHY5R9RQVZ9F5C64MCyDUFLay8lclU4ytwxzHMvGQefxDf1rnY+RDSN/rYAOJdJfuDV6MsiyCpNVORaOF4krZfKcOYhaMEJP475u6slbUbAAAAABkAMgBuACySoEQlQgElkqECWSYVkhBhzYSGIcFsQg1cw3gk8mbwW5CDR5M3gEnkreAThCBsaNvAJDQt4BOkIGZ0ez1R3BZCiaNydIQNvJG8EGibwTlCBmdHtWJ0a1PkIIibQTHbVHVepcEgLX5tdkQQCCOorqEIKuqORGgeb45Y77mFrW9gIyUxq/wAlOjaVwkERnkaQQ6Y87Zw2ODT5oPYu5Qg1tjsssKyQgxsiyyQgxslslQgSyEqECJUIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQf/Z",
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/226313_0_nbabpt.png",
+    brand: "Microsoft",
     category: "Gaming",
   },
   {
@@ -205,7 +170,8 @@ const products = [
     price: 5900,
     rating: 4.8,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Accessories/Images/307145_ood23z.png?tr=w-600", // Using the bundle image for controller representation
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Accessories/Images/307145_ood23z.png?tr=w-600",
+    brand: "Sony",
     category: "Gaming",
   },
   {
@@ -214,7 +180,8 @@ const products = [
     price: 5390,
     rating: 4.6,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMoYTBkuyM7um4nLHVVO9Y0kzmkN6rpqdg7w&s", // Using console image
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Accessories/Images/255992_0_k9x7sq.png",
+    brand: "Microsoft",
     category: "Gaming",
   },
 
@@ -228,6 +195,7 @@ const products = [
     rating: 4.5,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/311523_0_purtk1.png",
+    brand: "Samsung",
     category: "Phone",
   },
   {
@@ -239,6 +207,7 @@ const products = [
     rating: 4.7,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243460_0_CILAYIAIB.png?updatedAt=1762431620782",
+    brand: "Apple",
     category: "Phone",
   },
   {
@@ -250,15 +219,17 @@ const products = [
     rating: 4.8,
     image:
       "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/305748_nbrbma.png",
+    brand: "Apple",
     category: "Laptop",
   },
   {
     id: 19,
-    name: "Dell XPS 15 (Alternative)",
+    name: "Dell XPS 15",
     price: 240000,
     rating: 4.6,
     image:
-      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/255340_0_c2vnaz.png", // Using MacBook as generic laptop placeholder
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/255340_0_c2vnaz.png",
+    brand: "Dell",
     category: "Laptop",
   },
   {
@@ -269,9 +240,10 @@ const products = [
     rating: 4.8,
     image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/316841_0_3PBoI2KDZ.png?updatedAt=1762776920489",
+    brand: "Sony",
     category: "Gaming",
   },
-   {
+  {
     id: 21,
     name: "iPhone 15 Pro Max Titanium",
     price: 159900,
@@ -281,7 +253,312 @@ const products = [
     image:
       "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/300828_0_gdtzmh.png",
     isBestSeller: true,
+    brand: "Apple",
     category: "Phone",
+  },
+
+  // --- CAMERAS ---
+  {
+    id: 22,
+    name: "Canon EOS R5 Full Frame Mirrorless Camera",
+    price: 339990,
+    originalPrice: 369990,
+    discount: "8% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/228631_0_gslzrl.png",
+    isBestSeller: true,
+    brand: "Canon",
+    category: "Camera",
+  },
+  {
+    id: 23,
+    name: "Sony Alpha 7 IV Full Frame Camera",
+    price: 242990,
+    originalPrice: 269990,
+    discount: "10% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/251802_0_cjz5ts.png",
+    isBestSeller: true,
+    brand: "Sony",
+    category: "Camera",
+  },
+  {
+    id: 24,
+    name: "Nikon Z8 Full Frame Mirrorless Camera",
+    price: 329990,
+    originalPrice: 359990,
+    discount: "8% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/274195_0_epvimr.png",
+    brand: "Nikon",
+    category: "Camera",
+  },
+  {
+    id: 25,
+    name: "Canon EOS 90D DSLR Camera",
+    price: 114990,
+    originalPrice: 129990,
+    discount: "12% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/224549_0_fxz7fd.png",
+    brand: "Canon",
+    category: "Camera",
+  },
+  {
+    id: 26,
+    name: "Sony ZV-E10 Vlogging Camera",
+    price: 54990,
+    originalPrice: 64990,
+    discount: "15% OFF",
+    rating: 4.6,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/DSLR%20and%20Mirrorless%20cameras/Images/249095_0_jnsrp7.png",
+    brand: "Sony",
+    category: "Camera",
+  },
+  {
+    id: 27,
+    name: "GoPro HERO12 Black Action Camera",
+    price: 44990,
+    originalPrice: 49990,
+    discount: "10% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Action%20Camera/Images/304139_0_zxzqtc.png",
+    isBestSeller: true,
+    brand: "GoPro",
+    category: "Camera",
+  },
+
+  // --- CAMERA LENSES ---
+  {
+    id: 28,
+    name: "Canon RF 24-70mm f/2.8L IS USM Lens",
+    price: 219990,
+    originalPrice: 239990,
+    discount: "8% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/227084_0_nbrxww.png",
+    brand: "Canon",
+    category: "Lens",
+  },
+  {
+    id: 29,
+    name: "Sony FE 70-200mm f/2.8 GM OSS II Lens",
+    price: 229990,
+    originalPrice: 249990,
+    discount: "8% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/254018_0_qxz0bj.png",
+    isBestSeller: true,
+    brand: "Sony",
+    category: "Lens",
+  },
+  {
+    id: 30,
+    name: "Nikon NIKKOR Z 50mm f/1.8 S Lens",
+    price: 54990,
+    originalPrice: 64990,
+    discount: "15% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/223894_0_dqmn0e.png",
+    brand: "Nikon",
+    category: "Lens",
+  },
+  {
+    id: 31,
+    name: "Canon EF 50mm f/1.8 STM Lens",
+    price: 11990,
+    originalPrice: 13990,
+    discount: "14% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/202658_0_lbdwks.png",
+    brand: "Canon",
+    category: "Lens",
+  },
+  {
+    id: 32,
+    name: "Sony FE 24-105mm f/4 G OSS Lens",
+    price: 109990,
+    originalPrice: 124990,
+    discount: "12% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Cameras/Lenses/Images/219768_0_xj5fkk.png",
+    brand: "Sony",
+    category: "Lens",
+  },
+
+  // --- APPLE CHARGERS ---
+  {
+    id: 33,
+    name: "Apple 20W USB-C Power Adapter",
+    price: 1900,
+    originalPrice: 2100,
+    discount: "10% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/226890_1_xmcwfj.png",
+    isBestSeller: true,
+    brand: "Apple",
+    category: "Charger",
+  },
+  {
+    id: 34,
+    name: "Apple 35W Dual USB-C Port Power Adapter",
+    price: 5590,
+    originalPrice: 6100,
+    discount: "8% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/265102_0_lvmjqv.png",
+    brand: "Apple",
+    category: "Charger",
+  },
+  {
+    id: 35,
+    name: "Apple 140W USB-C Power Adapter",
+    price: 9900,
+    originalPrice: 10900,
+    discount: "9% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop%20Chargers%20and%20Adapters/Images/253000_0_fmhvry.png",
+    brand: "Apple",
+    category: "Charger",
+  },
+  {
+    id: 36,
+    name: "Apple MagSafe Charger",
+    price: 4500,
+    originalPrice: 4900,
+    discount: "8% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/227839_0_hgwdpm.png",
+    isBestSeller: true,
+    brand: "Apple",
+    category: "Charger",
+  },
+  {
+    id: 37,
+    name: "Apple MagSafe Duo Charger",
+    price: 14500,
+    originalPrice: 15900,
+    discount: "9% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/231412_0_yxqpor.png",
+    brand: "Apple",
+    category: "Charger",
+  },
+  {
+    id: 38,
+    name: "Apple Watch Magnetic Fast Charger to USB-C Cable",
+    price: 2900,
+    originalPrice: 3300,
+    discount: "12% OFF",
+    rating: 4.6,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Wearables/Wearable%20Accessories/Images/253002_0_lvzwij.png",
+    brand: "Apple",
+    category: "Charger",
+  },
+
+  // --- USB PEN DRIVES ---
+  {
+    id: 39,
+    name: "SanDisk Ultra Dual Drive 128GB USB 3.1 Type-C Pen Drive",
+    price: 1299,
+    originalPrice: 1599,
+    discount: "19% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/229048_0_nwfwwo.png",
+    isBestSeller: true,
+    brand: "SanDisk",
+    category: "Storage",
+  },
+  {
+    id: 40,
+    name: "SanDisk Ultra Flair 64GB USB 3.0 Pen Drive",
+    price: 599,
+    originalPrice: 799,
+    discount: "25% OFF",
+    rating: 4.6,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/204679_0_dw94yp.png",
+    brand: "SanDisk",
+    category: "Storage",
+  },
+  {
+    id: 41,
+    name: "HP v236w 32GB USB 2.0 Pen Drive",
+    price: 449,
+    originalPrice: 599,
+    discount: "25% OFF",
+    rating: 4.4,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/247888_0_y53xon.png",
+    brand: "HP",
+    category: "Storage",
+  },
+  {
+    id: 42,
+    name: "Samsung BAR Plus 256GB USB 3.1 Pen Drive",
+    price: 2499,
+    originalPrice: 2999,
+    discount: "17% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/220844_0_otwwve.png",
+    isBestSeller: true,
+    brand: "Samsung",
+    category: "Storage",
+  },
+  {
+    id: 43,
+    name: "SanDisk iXpand Flash Drive 128GB for iPhone",
+    price: 3999,
+    originalPrice: 4599,
+    discount: "13% OFF",
+    rating: 4.5,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/280917_0_h4xcay.png",
+    brand: "SanDisk",
+    category: "Storage",
+  },
+  {
+    id: 44,
+    name: "Kingston DataTraveler Exodia 64GB USB 3.2 Pen Drive",
+    price: 549,
+    originalPrice: 699,
+    discount: "21% OFF",
+    rating: 4.5,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/247891_0_h0kpbb.png",
+    brand: "Kingston",
+    category: "Storage",
+  },
+  {
+    id: 45,
+    name: "SanDisk Cruzer Blade 32GB USB 2.0 Pen Drive",
+    price: 399,
+    originalPrice: 499,
+    discount: "20% OFF",
+    rating: 4.4,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/202399_0_rz2ubr.png",
+    brand: "SanDisk",
+    category: "Storage",
   },
 ];
 export default products;

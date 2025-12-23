@@ -104,18 +104,7 @@ const products = [
   // },
 
   // // --- PHONES ---
-  // {
-  //   id: 5,
-  //   name: "iPhone 15 Pro Max Titanium",
-  //   price: 159900,
-  //   originalPrice: 169900,
-  //   discount: "5% OFF",
-  //   rating: 4.9,
-  //   image:
-  //     "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/300828_0_gdtzmh.png",
-  //   isBestSeller: true,
-  //   category: "Phone",
-  // },
+  //
   {
     id: 6,
     name: "Samsung Galaxy S25 Ultra",
@@ -281,6 +270,18 @@ const products = [
     image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/316841_0_3PBoI2KDZ.png?updatedAt=1762776920489",
     category: "Gaming",
+  },
+   {
+    id: 21,
+    name: "iPhone 15 Pro Max Titanium",
+    price: 159900,
+    originalPrice: 169900,
+    discount: "5% OFF",
+    rating: 4.9,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/300828_0_gdtzmh.png",
+    isBestSeller: true,
+    category: "Phone",
   },
 ];
 export default products;

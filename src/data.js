@@ -560,5 +560,325 @@ const products = [
     brand: "SanDisk",
     category: "Storage",
   },
+
+  // --- TRENDING SAMSUNG MOBILES ---
+  {
+    id: 46,
+    name: "Samsung Galaxy S24 Ultra 5G 512GB",
+    price: 134999,
+    originalPrice: 149999,
+    discount: "10% OFF",
+    rating: 4.9,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/303809_kwm8bv.png",
+    isBestSeller: true,
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 47,
+    name: "Samsung Galaxy S24+ 5G 256GB",
+    price: 99999,
+    originalPrice: 109999,
+    discount: "9% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/303862_albfdi.png",
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 48,
+    name: "Samsung Galaxy S24 5G 256GB",
+    price: 79999,
+    originalPrice: 89999,
+    discount: "11% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/303849_evezut.png?tr=w-600",
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 49,
+    name: "Samsung Galaxy Z Flip6 5G 256GB",
+    price: 109999,
+    originalPrice: 119999,
+    discount: "8% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/308189_0_x6pmtl.png",
+    isBestSeller: true,
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 50,
+    name: "Samsung Galaxy Z Fold6 5G 512GB",
+    price: 169999,
+    originalPrice: 184999,
+    discount: "8% OFF",
+    rating: 4.9,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/308185_0_swbe2z.png?tr=w-600",
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 51,
+    name: "Samsung Galaxy A55 5G 256GB",
+    price: 39999,
+    originalPrice: 44999,
+    discount: "11% OFF",
+    rating: 4.6,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/305507_0_l9z9rj.png",
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 52,
+    name: "Samsung Galaxy A35 5G 128GB",
+    price: 29999,
+    originalPrice: 34999,
+    discount: "14% OFF",
+    rating: 4.5,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/305473_0_atq07o.png?tr=w-600",
+    brand: "Samsung",
+    category: "Phone",
+  },
+  {
+    id: 53,
+    name: "Samsung Galaxy M55 5G 128GB",
+    price: 26999,
+    originalPrice: 29999,
+    discount: "10% OFF",
+    rating: 4.4,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/306021_0_z3nfh1.png",
+    brand: "Samsung",
+    category: "Phone",
+  },
+
+  // --- GOOGLE PIXEL MOBILES ---
+  {
+    id: 54,
+    name: "Google Pixel 9 Pro XL 256GB",
+    price: 124999,
+    originalPrice: 134999,
+    discount: "7% OFF",
+    rating: 4.9,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309155_0_hlghjt.png",
+    isBestSeller: true,
+    brand: "Google",
+    category: "Phone",
+  },
+  {
+    id: 55,
+    name: "Google Pixel 9 Pro 256GB",
+    price: 109999,
+    originalPrice: 119999,
+    discount: "8% OFF",
+    rating: 4.8,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309139_0_twgtjr.png",
+    brand: "Google",
+    category: "Phone",
+  },
+  {
+    id: 56,
+    name: "Google Pixel 9 128GB",
+    price: 79999,
+    originalPrice: 89999,
+    discount: "11% OFF",
+    rating: 4.7,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309168_10_pgpf7w.png",
+    brand: "Google",
+    category: "Phone",
+  },
+  {
+    id: 57,
+    name: "Google Pixel 9 Pro Fold 256GB",
+    price: 172999,
+    originalPrice: 189999,
+    discount: "9% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309152_0_ngrfps.png",
+    isBestSeller: true,
+    brand: "Google",
+    category: "Phone",
+  },
+  {
+    id: 58,
+    name: "Google Pixel 8a 128GB",
+    price: 52999,
+    originalPrice: 59999,
+    discount: "12% OFF",
+    rating: 4.6,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309153_0_rax3nf.png",
+    brand: "Google",
+    category: "Phone",
+  },
+  {
+    id: 59,
+    name: "Google Pixel 8 256GB",
+    price: 69999,
+    originalPrice: 79999,
+    discount: "12% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309142_0_v7zdex.png",
+    brand: "Google",
+    category: "Phone",
+  },
+
+  // --- SAMSUNG CHARGERS ---
+  {
+    id: 60,
+    name: "Samsung 25W USB-C Fast Charger",
+    price: 1499,
+    originalPrice: 1999,
+    discount: "25% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/306613_0_ltn8vw.png",
+    isBestSeller: true,
+    brand: "Samsung",
+    category: "Charger",
+  },
+  {
+    id: 61,
+    name: "Samsung 45W USB-C Super Fast Charger 2.0",
+    price: 2999,
+    originalPrice: 3499,
+    discount: "14% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/313722_0_iqeibp.png",
+    brand: "Samsung",
+    category: "Charger",
+  },
+  {
+    id: 62,
+    name: "Samsung 65W Power Adapter Trio",
+    price: 4499,
+    originalPrice: 4999,
+    discount: "10% OFF",
+    rating: 4.6,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/266105_4_uwzdnv.png",
+    brand: "Samsung",
+    category: "Charger",
+  },
+
+  // --- SAMSUNG WIRELESS CHARGERS ---
+  {
+    id: 63,
+    name: "Samsung 15W Wireless Charger Pad",
+    price: 2499,
+    originalPrice: 2999,
+    discount: "17% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/265583_0_wod9gt.png?tr=w-600",
+    isBestSeller: true,
+    brand: "Samsung",
+    category: "Wireless Charger",
+  },
+  {
+    id: 64,
+    name: "Samsung 15W Wireless Charger Stand",
+    price: 3499,
+    originalPrice: 3999,
+    discount: "12% OFF",
+    rating: 4.6,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobile%20Accessories/Images/237023_0_tqfrfh.png",
+    brand: "Samsung",
+    category: "Wireless Charger",
+  },
+  {
+    id: 65,
+    name: "Samsung Wireless Charger Duo Pad",
+    price: 5999,
+    originalPrice: 6999,
+    discount: "14% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/261817_12_x45u0a.png",
+    brand: "Samsung",
+    category: "Wireless Charger",
+  },
+  {
+    id: 66,
+    name: "Samsung Super Fast Wireless Charger",
+    price: 4499,
+    originalPrice: 5499,
+    discount: "18% OFF",
+    rating: 4.7,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/261816_0_dvv1ot.png",
+    brand: "Samsung",
+    category: "Wireless Charger",
+  },
+
+  // --- GOOGLE CHARGERS ---
+  {
+    id: 67,
+    name: "Google 30W USB-C Power Adapter",
+    price: 2499,
+    originalPrice: 2999,
+    discount: "17% OFF",
+    rating: 4.7,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/310626_oigfpy.png",
+    isBestSeller: true,
+    brand: "Google",
+    category: "Charger",
+  },
+  {
+    id: 68,
+    name: "Google 45W USB-C Power Adapter",
+    price: 3999,
+    originalPrice: 4499,
+    discount: "11% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/310627_ne0vks.png",
+    brand: "Google",
+    category: "Charger",
+  },
+
+  // --- GOOGLE WIRELESS CHARGERS ---
+  {
+    id: 69,
+    name: "Google Pixel Stand 2nd Gen Wireless Charger",
+    price: 8999,
+    originalPrice: 9999,
+    discount: "10% OFF",
+    rating: 4.8,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/221813_0_x7ntly.png",
+    isBestSeller: true,
+    brand: "Google",
+    category: "Wireless Charger",
+  },
+  {
+    id: 70,
+    name: "Google Pixel Watch Wireless Charger",
+    price: 2999,
+    originalPrice: 3499,
+    discount: "14% OFF",
+    rating: 4.6,
+    image:
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/303359_vznjtt.png",
+    brand: "Google",
+    category: "Wireless Charger",
+  },
 ];
 export default products;

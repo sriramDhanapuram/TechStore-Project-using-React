@@ -1,3 +1,4 @@
+// NewProductCard - Nova design product card with hover overlay and modern styling
 import "./NewProductCard.css";
 
 export default function NewProductCard({
@@ -9,25 +10,13 @@ export default function NewProductCard({
   discount,
   rating,
   isBestSeller,
-  // isWishlisted,
-  // onAddToCart,
-  // onToggoleWishlist,
   category,
 }) {
   return (
     <div className="nova-card">
       <div className="nova-card-inner">
-        {/* Badge */}
         {discount && <span className="nova-badge">{discount}</span>}
 
-        {/* <button
-          className={`wishlisted ${isWishlisted ? "active" : " "}`}
-          onClick={onToggoleWishlist}
-        >
-          {isWishlisted ? "❤️" : "🤍"}
-        </button> */}
-
-        {/* Image Area */}
         <div className="nova-image-wrapper">
           <img src={image} alt={name} className="nova-image" />
           <div className="nova-overlay">
@@ -35,15 +24,9 @@ export default function NewProductCard({
           </div>
         </div>
 
-        {/* Info Area */}
         <div className="nova-details">
           <div className="nova-meta">
             <span className="nova-category">{category}</span>
-            {/* <span className="nova-category">
-              {" "}
-              {"★".repeat(Math.floor(rating))}
-              {"✩".repeat(5 - Math.floor(rating))}
-            </span> */}
             <div className="nova-rating">
               <span className="active-star">★</span> {rating}
             </div>
@@ -53,6 +36,7 @@ export default function NewProductCard({
 
           <div className="nova-price-block">
             <div className="prices">
+              {/* toLocaleString formats price with locale-specific separators */}
               <span className="current-price">₹{price.toLocaleString()}</span>
               {originalPrice && (
                 <span className="old-price">

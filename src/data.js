@@ -1,3 +1,90 @@
+/**
+ * data.js - Main Product Database for TechStore
+ * 
+ * This file contains the complete product catalog used by the main App.jsx component.
+ * It's the primary data source for the TechStore e-commerce application.
+ * 
+ * ============================================================================
+ * DATA STRUCTURE
+ * ============================================================================
+ * Each product object contains the following properties:
+ * 
+ * REQUIRED PROPERTIES:
+ * - id (number): Unique identifier for the product
+ *   Used as React "key" prop and for cart/wishlist operations
+ *   Must never be duplicated across products
+ * 
+ * - name (string): Product display name/title
+ *   Shown on product cards and in cart
+ * 
+ * - price (number): Current selling price in INR (Indian Rupees)
+ *   Stored as integer without decimal (e.g., 169999 = ₹1,69,999)
+ *   Formatted with toLocaleString() for display
+ * 
+ * - rating (number): Product rating from 1.0 to 5.0
+ *   Used to display star ratings and for sorting
+ * 
+ * - image (string): URL to product image
+ *   Should be PNG/JPEG format, transparent background preferred
+ *   Images sourced primarily from Croma website
+ * 
+ * - brand (string): Manufacturer/brand name
+ *   Used for brand filtering functionality
+ *   Examples: "Apple", "Samsung", "Sony", "Google", etc.
+ * 
+ * - category (string): Product category
+ *   Used for categorization and filtering
+ *   Categories: "Desktop", "Laptop", "Phone", "Tablet", "Gaming", 
+ *               "Camera", "Lens", "Charger", "Wireless Charger", "Storage"
+ * 
+ * OPTIONAL PROPERTIES:
+ * - originalPrice (number): Original MRP before discount
+ *   If present, shows strikethrough price on card
+ * 
+ * - discount (string): Discount text like "15% OFF", "10% OFF"
+ *   If present, shows discount badge on product card
+ * 
+ * - isBestSeller (boolean): Flag for popular products
+ *   If true, shows "Best Seller" badge on card
+ * 
+ * ============================================================================
+ * PRODUCT CATEGORIES (Total ~70 products)
+ * ============================================================================
+ * 1. Desktops & Computers (iMac, etc.)
+ * 2. Phones (iPhone, Samsung Galaxy, Google Pixel)
+ * 3. Tablets (iPad Pro, iPad Air)
+ * 4. Gaming (PlayStation 5, Xbox, Controllers)
+ * 5. Laptops (MacBook Pro, Dell XPS)
+ * 6. Cameras (Canon, Sony, Nikon, GoPro)
+ * 7. Camera Lenses (Canon, Sony, Nikon lenses)
+ * 8. Chargers (Apple, Samsung, Google chargers)
+ * 9. Wireless Chargers (MagSafe, Samsung, Google)
+ * 10. Storage (USB Pen Drives - SanDisk, Samsung, HP, Kingston)
+ * 
+ * ============================================================================
+ * USAGE IN APPLICATION
+ * ============================================================================
+ * This data is imported in App.jsx:
+ *   import products from "./data.js";
+ * 
+ * And used for:
+ * - Displaying product cards in the product grid
+ * - Filtering by search term (name/brand)
+ * - Filtering by brand dropdown
+ * - Sorting by price/rating/name
+ * - Adding to cart functionality
+ * - Wishlist functionality
+ * 
+ * ============================================================================
+ * NOTE: In a production application, this data would come from:
+ * - REST API endpoints
+ * - GraphQL queries
+ * - Database queries (MongoDB, PostgreSQL, etc.)
+ * - Headless CMS (Contentful, Strapi, etc.)
+ * - E-commerce platforms (Shopify, WooCommerce API)
+ * ============================================================================
+ */
+
 const products = [
   {
     id: 1,
@@ -881,4 +968,20 @@ const products = [
     category: "Wireless Charger",
   },
 ];
+
+// ============================================================================
+// EXPORT
+// ============================================================================
+/**
+ * Default Export
+ * 
+ * exports the products array as the default export of this module.
+ * This allows the array to be imported with any name:
+ * 
+ * import products from "./data.js";      // Standard import
+ * import myProducts from "./data.js";    // Custom name also works
+ * 
+ * The default export is the main/primary export from a file.
+ * A file can have only ONE default export but multiple named exports.
+ */
 export default products;

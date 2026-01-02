@@ -1,4 +1,6 @@
-/* Global Reset - Clean Slate */
+/* Global CSS Reset and Base Styles */
+
+/* Reset all elements to remove browser defaults */
 *,
 *::before,
 *::after {
@@ -18,6 +20,7 @@ body {
   padding: 0;
 }
 
+/* React app mount point */
 #root {
   width: 100%;
   min-height: 100vh;

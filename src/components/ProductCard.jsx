@@ -1,3 +1,4 @@
+// ProductCard - Displays individual product with add-to-cart and wishlist functionality
 import "./ProductCard.css";
 
 export default function ProductCard({
@@ -15,10 +16,8 @@ export default function ProductCard({
 }) {
   return (
     <div className="product-card">
-      {/* Discount Badge */}
       {discount && <span className="discount-badge">{discount}</span>}
 
-      {/* Wishlist Button */}
       <button
         className={`wishlist-btn ${isWishlisted ? "active" : ""}`}
         onClick={onToggleWishlist}
@@ -26,18 +25,16 @@ export default function ProductCard({
         {isWishlisted ? "❤️" : "🤍"}
       </button>
 
-      {/* Product Image */}
       <div className="image-container">
         <img src={image} alt={name} className="product-image" />
       </div>
 
-      {/* Content */}
       <div className="card-content">
         <h3 className="product-name">{name}</h3>
 
-        {/* Rating */}
         <div className="rating">
           <span className="stars">
+            {/* Star rating: filled stars based on rating, empty for remainder */}
             {"★".repeat(Math.floor(rating))}
             {"☆".repeat(5 - Math.floor(rating))}
           </span>
@@ -45,15 +42,14 @@ export default function ProductCard({
           {isBestSeller && <span className="bestseller-tag">Best Seller</span>}
         </div>
 
-        {/* Price */}
         <div className="price-row">
+          {/* toLocaleString formats price with locale-specific separators */}
           <span className="price">₹{price.toLocaleString()}</span>
           {originalPrice && (
             <span className="original-price">₹{originalPrice.toLocaleString()}</span>
           )}
         </div>
 
-        {/* Button */}
         <button className="add-btn" onClick={onAddToCart}>
           Add to Cart
         </button>

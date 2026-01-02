@@ -1,6 +1,76 @@
 /* ========================================
    🛒 PRODUCT CARD - Premium Design
-   ======================================== */
+   ========================================
+   
+   This file contains all styles for the ProductCard component.
+   It's organized in the following sections:
+   
+   1. PRODUCT CARD CONTAINER - Base card styling and hover effects
+   2. DISCOUNT BADGE - Positioned badge showing discount percentage
+   3. WISHLIST BUTTON - Circular button with heart icon
+   4. IMAGE CONTAINER - Product image wrapper with effects
+   5. CARD CONTENT - Product details section
+   6. RATING - Star rating and bestseller badge
+   7. PRICE ROW - Current and original prices
+   8. ADD TO CART BUTTON - Primary action button
+   9. RESPONSIVE - Mobile-friendly adjustments
+   10. LIGHT MODE - Theme variant styles
+   
+   ============================================================================
+   CSS TECHNIQUES USED IN THIS FILE:
+   ============================================================================
+   
+   PSEUDO-ELEMENTS (::before, ::after):
+   - Used for decorative overlays without extra HTML
+   - content: "" is required to render pseudo-elements
+   - Example: .product-card::before creates a glow overlay on hover
+   
+   CSS TRANSITIONS:
+   - transition: all 0.3s ease - Smoothly animates property changes
+   - Timing: 0.25s is a good default, 0.3s-0.4s for more noticeable effects
+   - Easing: 'ease' provides natural acceleration/deceleration
+   
+   CSS TRANSFORMS:
+   - translateY(-8px) - Moves element up by 8 pixels (hover lift effect)
+   - scale(1.08) - Enlarges element by 8% (image zoom on hover)
+   
+   CSS GRADIENTS:
+   - linear-gradient() - Creates color transitions in a line
+   - radial-gradient() - Creates circular color transitions
+   - Used for backgrounds, buttons, and decorative effects
+   
+   FLEXBOX:
+   - display: flex - Creates a flex container
+   - align-items: center - Vertically centers children
+   - justify-content: center - Horizontally centers children
+   - gap: 10px - Space between flex items
+   
+   CSS ANIMATIONS (@keyframes):
+   - heartBeat - Creates pulsing effect when item is wishlisted
+   - Defined with @keyframes, applied with animation property
+   
+   BACKDROP-FILTER:
+   - backdrop-filter: blur(8px) - Blurs content behind element
+   - Creates "frosted glass" effect
+   - Requires -webkit- prefix for Safari
+   
+   LINE CLAMPING (Text Truncation):
+   - -webkit-line-clamp: 2 - Limits text to 2 lines
+   - Requires display: -webkit-box and -webkit-box-orient: vertical
+   
+   BOX SHADOW:
+   - Multiple shadows can be comma-separated
+   - Used for elevation, glow effects, and depth
+   
+   ============================================================================
+   COLOR PALETTE (Dark Mode):
+   - Background: #111111 (dark gray)
+   - Accent: #0071e3 (Apple blue)
+   - Stars: #fbbf24 (amber/gold)
+   - Success/Bestseller: #22c55e (green)
+   - Wishlist Active: #ff4757 (red)
+   ============================================================================
+*/
 
 .product-card {
   position: relative;

@@ -1,7 +1,93 @@
 /* ========================================
    ⚡ TECHSTORE - Premium Landing Page
    Modern • Minimal • Professional
-   ======================================== */
+   ========================================
+   
+   This is the main stylesheet for the TechStore application.
+   It defines the complete design system including:
+   
+   SECTIONS IN THIS FILE:
+   ============================================================================
+   1. @import - Google Fonts (Inter font family)
+   2. CSS VARIABLES (:root) - Design tokens and theme values
+   3. BASE STYLES - Body and app container
+   4. NAVIGATION - Fixed header with blur effect
+   5. HERO SECTION - Main promotional banner
+   6. PRODUCTS SECTION - Product grid and filters
+   7. CART ICON - Shopping cart with badge
+   8. WISHLIST ICON - Heart icon with badge
+   9. FILTER CONTROLS - Search and dropdowns
+   10. CART SIDEBAR - Slide-out cart drawer
+   11. THEME TOGGLE - Dark/Light mode button
+   12. FOOTER - Bottom section
+   13. RESPONSIVE - Mobile breakpoints
+   14. SCROLLBAR - Custom webkit scrollbar
+   15. LIGHT MODE - Alternative theme variables
+   
+   ============================================================================
+   CSS VARIABLES (Custom Properties)
+   ============================================================================
+   CSS Variables (defined with -- prefix in :root) provide:
+   - Single source of truth for colors, sizes, and spacing
+   - Easy theme switching (light/dark mode)
+   - Consistency across components
+   - Runtime value changes (unlike Sass variables)
+   
+   Usage: var(--variable-name)
+   Example: background: var(--bg-primary);
+   
+   ============================================================================
+   KEY DESIGN PATTERNS
+   ============================================================================
+   
+   GLASSMORPHISM:
+   - backdrop-filter: blur(20px) - Frosted glass effect
+   - Semi-transparent backgrounds (rgba)
+   - Subtle borders for definition
+   - Used in: navbar, buttons, overlays
+   
+   FIXED NAVIGATION:
+   - position: fixed keeps navbar visible during scroll
+   - z-index: 1000 ensures it stays on top
+   - backdrop-filter creates blur effect
+   
+   RESPONSIVE GRID:
+   - CSS Grid for product layout
+   - grid-template-columns: repeat(4, 1fr) - 4 equal columns
+   - Breakpoints reduce columns on smaller screens
+   
+   ANIMATIONS:
+   - @keyframes for custom animations
+   - animation: name duration timing-function delay
+   - Used for: fadeInUp, gradientShift, heroGlow, badgePop
+   
+   CLAMP() FUNCTION:
+   - clamp(min, preferred, max)
+   - Creates fluid typography: font-size: clamp(2.75rem, 7vw, 5rem)
+   - Scales font between min and max based on viewport width
+   
+   ============================================================================
+   UNITS USED
+   ============================================================================
+   - px (pixels): Fixed sizes for borders, shadows, small spacing
+   - rem: Relative to root font size (16px default), for scalable sizing
+   - em: Relative to parent font size, for proportional sizing
+   - vh/vw: Viewport height/width percentages
+   - %: Percentage of parent element
+   
+   ============================================================================
+   COLOR SYSTEM
+   ============================================================================
+   DARK MODE (default):
+   - Backgrounds: #000000 (pure black) to #161616 (elevated)
+   - Text: #ffffff to rgba(255,255,255,0.5) (white to muted)
+   - Accent: #0071e3 (Apple blue)
+   
+   LIGHT MODE:
+   - Backgrounds: #ffffff to #f5f5f7 (Apple gray)
+   - Text: #1d1d1f to #86868b (dark gray to muted)
+   - Accent: Same blue (#0071e3)
+   ========================================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 

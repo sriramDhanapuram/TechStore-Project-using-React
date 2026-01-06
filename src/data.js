@@ -1,52 +1,52 @@
 /**
  * data.js - Main Product Database for TechStore
- * 
+ *
  * This file contains the complete product catalog used by the main App.jsx component.
  * It's the primary data source for the TechStore e-commerce application.
- * 
+ *
  * ============================================================================
  * DATA STRUCTURE
  * ============================================================================
  * Each product object contains the following properties:
- * 
+ *
  * REQUIRED PROPERTIES:
  * - id (number): Unique identifier for the product
  *   Used as React "key" prop and for cart/wishlist operations
  *   Must never be duplicated across products
- * 
+ *
  * - name (string): Product display name/title
  *   Shown on product cards and in cart
- * 
+ *
  * - price (number): Current selling price in INR (Indian Rupees)
  *   Stored as integer without decimal (e.g., 169999 = ₹1,69,999)
  *   Formatted with toLocaleString() for display
- * 
+ *
  * - rating (number): Product rating from 1.0 to 5.0
  *   Used to display star ratings and for sorting
- * 
+ *
  * - image (string): URL to product image
  *   Should be PNG/JPEG format, transparent background preferred
  *   Images sourced primarily from Croma website
- * 
+ *
  * - brand (string): Manufacturer/brand name
  *   Used for brand filtering functionality
  *   Examples: "Apple", "Samsung", "Sony", "Google", etc.
- * 
+ *
  * - category (string): Product category
  *   Used for categorization and filtering
- *   Categories: "Desktop", "Laptop", "Phone", "Tablet", "Gaming", 
+ *   Categories: "Desktop", "Laptop", "Phone", "Tablet", "Gaming",
  *               "Camera", "Lens", "Charger", "Wireless Charger", "Storage"
- * 
+ *
  * OPTIONAL PROPERTIES:
  * - originalPrice (number): Original MRP before discount
  *   If present, shows strikethrough price on card
- * 
+ *
  * - discount (string): Discount text like "15% OFF", "10% OFF"
  *   If present, shows discount badge on product card
- * 
+ *
  * - isBestSeller (boolean): Flag for popular products
  *   If true, shows "Best Seller" badge on card
- * 
+ *
  * ============================================================================
  * PRODUCT CATEGORIES (Total ~70 products)
  * ============================================================================
@@ -60,13 +60,13 @@
  * 8. Chargers (Apple, Samsung, Google chargers)
  * 9. Wireless Chargers (MagSafe, Samsung, Google)
  * 10. Storage (USB Pen Drives - SanDisk, Samsung, HP, Kingston)
- * 
+ *
  * ============================================================================
  * USAGE IN APPLICATION
  * ============================================================================
  * This data is imported in App.jsx:
  *   import products from "./data.js";
- * 
+ *
  * And used for:
  * - Displaying product cards in the product grid
  * - Filtering by search term (name/brand)
@@ -74,7 +74,7 @@
  * - Sorting by price/rating/name
  * - Adding to cart functionality
  * - Wishlist functionality
- * 
+ *
  * ============================================================================
  * NOTE: In a production application, this data would come from:
  * - REST API endpoints
@@ -518,7 +518,7 @@ const products = [
     discount: "9% OFF",
     rating: 4.9,
     image:
-    "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/245237_0_pci9h8.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/245237_0_pci9h8.png",
     brand: "Apple",
     category: "Charger",
   },
@@ -605,8 +605,7 @@ const products = [
     originalPrice: 2999,
     discount: "17% OFF",
     rating: 4.8,
-    image:
-      "/Samsung BAR Plus 256GB USB 3.1 Pen Drive.png",
+    image: "/Samsung BAR Plus 256GB USB 3.1 Pen Drive.png",
     isBestSeller: true,
     brand: "Samsung",
     category: "Storage",
@@ -619,7 +618,7 @@ const products = [
     discount: "13% OFF",
     rating: 4.5,
     image:
-    "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/241494_5_tg41yp.png",
+      "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Storage%20Devices/Images/241494_5_tg41yp.png",
     brand: "SanDisk",
     category: "Storage",
   },
@@ -974,13 +973,13 @@ const products = [
 // ============================================================================
 /**
  * Default Export
- * 
+ *
  * exports the products array as the default export of this module.
  * This allows the array to be imported with any name:
- * 
+ *
  * import products from "./data.js";      // Standard import
  * import myProducts from "./data.js";    // Custom name also works
- * 
+ *
  * The default export is the main/primary export from a file.
  * A file can have only ONE default export but multiple named exports.
  */

@@ -1,17 +1,17 @@
 /**
  * newData.js - Product Data for NovaTech Store
- * 
+ *
  * This file contains an array of product objects used by the NewApp component.
  * Each product has properties like name, price, image, rating, etc.
- * 
+ *
  * In a real-world application, this data would typically come from:
  * - A REST API (fetch/axios requests)
  * - A database (MongoDB, PostgreSQL, etc.)
  * - A CMS (Content Management System)
  * - A headless e-commerce platform (Shopify, Stripe, etc.)
- * 
+ *
  * For learning and prototyping, using static data like this is common.
- * 
+ *
  * DATA STRUCTURE:
  * Each product object contains:
  * - id: Unique identifier (number) - Required for React's key prop
@@ -36,17 +36,18 @@ const products = [
   // Desktop computers, laptops, and monitors
   // ============================================================================
   {
-    id: 1,                                    // Unique identifier - never duplicated
-    name: "Apple iMac 27 Retina 5K",          // Product display name
-    price: 169999,                            // Current price in INR (₹1,69,999)
-    originalPrice: 199999,                    // Price before discount (₹1,99,999)
-    discount: "15% OFF",                      // Discount badge text
-    rating: 5.0,                              // Star rating (out of 5)
-    image:                                    // Product image URL from Croma
+    id: 1, // Unique identifier - never duplicated
+    name: "Apple iMac 27 Retina 5K", // Product display name
+    price: 169999, // Current price in INR (₹1,69,999)
+    originalPrice: 199999, // Price before discount (₹1,99,999)
+    discount: "15% OFF", // Discount badge text
+    rating: 5.0, // Star rating (out of 5)
+    // Product image URL from Croma
+    image:
       "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Monitor/Images/250014_0_zm8htw.png",
-    isBestSeller: true,                       // Shows "HOT" badge on card
-    brand: "Apple",                           // Manufacturer brand
-    category: "Desktop",                      // Category for filtering
+    isBestSeller: true, // Shows "HOT" badge on card
+    brand: "Apple", // Manufacturer brand
+    category: "Desktop", // Category for filtering
   },
   {
     id: 2,
@@ -288,13 +289,13 @@ const products = [
 
 /**
  * Default Export
- * 
+ *
  * export default products;
  * - Makes this array available to import in other files
  * - "default" means this is the main export from this file
  * - Can be imported as: import products from "./newData.js"
  *   or: import anyName from "./newData.js" (name can be anything)
- * 
+ *
  * Alternative: Named export
  * - export { products };
  * - Would be imported as: import { products } from "./newData.js"
